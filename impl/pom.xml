@@ -8,7 +8,6 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.myorganisation.transfers</groupId>
     <artifactId>football-transfers-impl</artifactId>
     <version>${project.version}</version>
 
