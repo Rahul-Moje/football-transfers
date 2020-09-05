@@ -25,6 +25,12 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
+        <!--If we do not have a local database setup, use in memory-->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
         <dependency>
             <groupId>com.myorganisation.transfers</groupId>
             <artifactId>football-transfers-domain</artifactId>
